@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIMPLE DASHBOARD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard">
+    
+    <nav class="sidebar">
+      <h2>Dashboard</h2>
+      <ul class="nav-menu">
+        <li><a href="#" class="main-link" data-content="Reports data">Reports</a></li>
+        <li class="has-submenu">
+          <a href="#" id="accounts-menu">Accounts ▼</a>
+          <ul class="submenu" id="accounts-submenu">
+            <li><a href="#" class="submenu-link" data-content=" Users account">Users</a></li>
+            <li><a href="#" class="submenu-link" data-content=" Temp Users profile">Temp Users</a></li>
+            <li><a href="#" class="submenu-link" data-content=" Total Number of Users ">Total Number of Users</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    
+    <div class="main-content">
+      <header>
+        <h1></h1>
+      </header>
+      <section class="content" id="dynamic-content">
+        <p></p>
+      </section>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
